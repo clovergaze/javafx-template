@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+            fx:id="rootNode" fx:controller="org.infokin.controller.MainViewController"
+            prefHeight="300.0" prefWidth="400.0">
+    <top>
+        <MenuBar>
+            <Menu mnemonicParsing="false" text="File">
+                <MenuItem mnemonicParsing="false" onAction="#handleCloseApplication" text="Close"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+                <MenuItem mnemonicParsing="false" onAction="#handleAboutApplication" text="About"/>
+            </Menu>
+        </MenuBar>
+    </top>
+</BorderPane>
